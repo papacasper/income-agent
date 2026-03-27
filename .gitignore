@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+.venv/
+
+# Environment & secrets
+.env
+*.env.local
+
+# Database & runtime data
+data/
+logs/
+
+# Build output
+dist/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Cloudflare cache
+cloudflare/worker/.wrangler/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Package lock (prefer bun)
+package-lock.json

@@ -1,0 +1,14 @@
+name = "papacasper-tools"
+main = "index.js"
+compatibility_date = "2024-01-01"
+
+[vars]
+ENVIRONMENT = "production"
+
+# Deploy with: wrangler deploy
+# Then add route in Cloudflare dashboard:
+#   tools.papacasper.com/* → papacasper-tools worker
+#
+# Secrets (set via CLI, never in source):
+#   wrangler secret put GHOST_ADMIN_KEY
+#   wrangler secret put ANTHROPIC_API_KEY
